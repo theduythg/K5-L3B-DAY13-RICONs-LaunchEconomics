@@ -5,7 +5,7 @@
 - Tên nhóm: RICONs
 - Lớp: L3B
 - Repo nhóm: `K5-L3B-DAY13-RICONs-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt: https://github.com/theduythg/K5-L3B-DAY13-RICONs-LaunchEconomics · nhánh `theduythg/run` (merge vào `main` khi nộp) · ⟨commit hash sau khi push⟩
+- URL repo, nhánh nộp, commit chốt: https://github.com/theduythg/K5-L3B-DAY13-RICONs-LaunchEconomics · nhánh `theduythg/run` (merge vào `main` khi nộp) · commit bài làm `3015690` (commit cuối trên `main` trước deadline là bản chấm)
 
 ## Thành viên
 
