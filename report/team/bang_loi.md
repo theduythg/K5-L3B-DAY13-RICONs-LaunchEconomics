@@ -9,40 +9,40 @@ Nhóm RICONs chỉ có 1 thành viên, nên hai bộ nhãn được làm như sa
 - **Người gắn nhãn 1:** thành viên của nhóm, tự gắn cả 20 ca trong 8 phút, **không xem** cột người 2 và không xem nhãn tham khảo trong `docs/`.
 - **Người gắn nhãn 2:** Claude Code (trợ lý AI), gắn độc lập theo bảng định nghĩa PAIR của đề, có ghi lý do từng ca ở cột cuối.
 
-Sau khi so, không sửa hai cột nhãn độc lập; chỉ điền cột "Nhãn thống nhất".
+Người 1 gửi nhãn theo từng đợt (ca 1–5, 6–10, 11–15, 16–20); mỗi đợt chỉ so sau khi người 1 đã chốt nhãn đợt đó. Sau khi so, không sửa hai cột nhãn độc lập.
 
 | Ca | Nhãn người 1 | Nhãn người 2 | Trùng? | Nhãn thống nhất | Lý do của người 2 (nguyên nhân gốc) |
 | --: | --- | --- | --- | --- | --- |
-| 1 | ⟨chờ điền⟩ | Do người dùng | | | Khách nhập số tài khoản thiếu 2 chữ số |
-| 2 | ⟨chờ điền⟩ | Hệ thống | | | Trợ lý gọi tool sai tham số (hàng thường thay hàng nặng), sai chính sách, khách đã thấy và mở lại |
-| 3 | ⟨chờ điền⟩ | Ngữ cảnh | | | Hoàn về ví đúng thiết kế; giả định "khách dùng ví" không khớp kỳ vọng của khách |
-| 4 | ⟨chờ điền⟩ | Giới hạn hệ thống | | | Không có dữ liệu chặng hãng nước ngoài, không thể trả lời dù cố gắng |
-| 5 | ⟨chờ điền⟩ | Ngầm | | | Hoàn thừa 14 đơn, không khách nào báo, không cảnh báo nào; chỉ lộ qua kiểm tra mẫu |
-| 6 | ⟨chờ điền⟩ | Do người dùng | | | Khách chọn sai mục "giao trễ" cho hàng vỡ; việc trợ lý không đối chiếu mô tả là chỗ cần sửa, không phải gốc |
-| 7 | ⟨chờ điền⟩ | Hệ thống | | | Báo "đã hoàn" khi sổ cái trả 503, vi phạm thiết kế |
-| 8 | ⟨chờ điền⟩ | Hệ thống | | | Trích điều 7.2 không tồn tại; sai nhìn thấy được trong câu trả lời nên không phải ngầm |
-| 9 | ⟨chờ điền⟩ | Do người dùng | | | Khách nhập mã đơn sàn TMĐT thay vì mã vận đơn |
-| 10 | ⟨chờ điền⟩ | Ngữ cảnh | | | Từ chối đúng chính sách bất khả kháng; khách thấy vô lý vì app hiện "cam kết 24 giờ" |
-| 11 | ⟨chờ điền⟩ | Giới hạn hệ thống | | | Không xử lý được tin nhắn thoại (dạng đầu vào không hỗ trợ) |
-| 12 | ⟨chờ điền⟩ | Ngầm | | | Kết quả đúng nhưng chi phí token D05 gấp 3 lần suốt 3 tuần, không ai thấy |
-| 13 | ⟨chờ điền⟩ | Giới hạn hệ thống | | | Phí bảo hiểm của đối tác nằm ngoài phạm vi; xử lý giới hạn kém là chỗ cần sửa |
-| 14 | ⟨chờ điền⟩ | Do người dùng | | | Khách bấm nhầm "Xác nhận đã nhận tiền" |
-| 15 | ⟨chờ điền⟩ | Hệ thống | | | Tính 100% thay vì 50% theo chính sách; nhân viên bắt được nên không ngầm |
-| 16 | ⟨chờ điền⟩ | Ngữ cảnh | | | Gửi lúc 2:14 sáng đúng thiết kế "gửi ngay", không khớp hoàn cảnh khách |
-| 17 | ⟨chờ điền⟩ | Ngầm | | | Dùng bảng giá cũ trong bộ nhớ đệm, lệch 212 đơn trong 9 ngày, không ai mở lại |
-| 18 | ⟨chờ điền⟩ | Ngữ cảnh | | | Số tiền đúng; giả định "khách hiểu cách tính" không khớp nên khách mở lại |
-| 19 | ⟨chờ điền⟩ | Giới hạn hệ thống | | | Chỉ truy cập được 12 tháng dữ liệu, đơn 14 tháng trước |
-| 20 | ⟨chờ điền⟩ | Hệ thống | | | Hoàn hai lần vì lệnh thứ hai thiếu khoá chống trùng, sai thiết kế |
+| 1 | Do người dùng | Do người dùng | Có | Do người dùng | Khách nhập số tài khoản thiếu 2 chữ số |
+| 2 | Hệ thống | Hệ thống | Có | Hệ thống | Trợ lý gọi tool sai tham số (hàng thường thay hàng nặng), sai chính sách, khách đã thấy và mở lại |
+| 3 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh | Hoàn về ví đúng thiết kế; giả định "khách dùng ví" không khớp kỳ vọng của khách |
+| 4 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống | Không có dữ liệu chặng hãng nước ngoài, không thể trả lời dù cố gắng |
+| 5 | Ngầm | Ngầm | Có | Ngầm | Hoàn thừa 14 đơn, không khách nào báo, không cảnh báo nào; chỉ lộ qua kiểm tra mẫu |
+| 6 | Do người dùng | Do người dùng | Có | Do người dùng | Khách chọn sai mục "giao trễ" cho hàng vỡ; việc trợ lý không đối chiếu mô tả là chỗ cần sửa, không phải gốc |
+| 7 | Hệ thống | Hệ thống | Có | Hệ thống | Báo "đã hoàn" khi sổ cái trả 503, vi phạm thiết kế |
+| 8 | Hệ thống | Hệ thống | Có | Hệ thống | Trích điều 7.2 không tồn tại; sai nhìn thấy được trong câu trả lời nên không phải ngầm |
+| 9 | Do người dùng | Do người dùng | Có | Do người dùng | Khách nhập mã đơn sàn TMĐT thay vì mã vận đơn |
+| 10 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh | Từ chối đúng chính sách bất khả kháng; khách thấy vô lý vì app hiện "cam kết 24 giờ" |
+| 11 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống | Không xử lý được tin nhắn thoại (dạng đầu vào không hỗ trợ) |
+| 12 | Ngầm | Ngầm | Có | Ngầm | Kết quả đúng nhưng chi phí token D05 gấp 3 lần suốt 3 tuần, không ai thấy |
+| 13 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống | Phí bảo hiểm của đối tác nằm ngoài phạm vi; xử lý giới hạn kém là chỗ cần sửa |
+| 14 | Do người dùng | Do người dùng | Có | Do người dùng | Khách bấm nhầm "Xác nhận đã nhận tiền" |
+| 15 | Hệ thống | Hệ thống | Có | Hệ thống | Tính 100% thay vì 50% theo chính sách; nhân viên bắt được nên không ngầm |
+| 16 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh | Gửi lúc 2:14 sáng đúng thiết kế "gửi ngay", không khớp hoàn cảnh khách |
+| 17 | Ngầm | Ngầm | Có | Ngầm | Dùng bảng giá cũ trong bộ nhớ đệm, lệch 212 đơn trong 9 ngày, không ai mở lại |
+| 18 | Ngữ cảnh | Ngữ cảnh | Có | Ngữ cảnh | Số tiền đúng; giả định "khách hiểu cách tính" không khớp nên khách mở lại |
+| 19 | Giới hạn hệ thống | Giới hạn hệ thống | Có | Giới hạn hệ thống | Chỉ truy cập được 12 tháng dữ liệu, đơn 14 tháng trước |
+| 20 | Hệ thống | Hệ thống | Có | Hệ thống | Hoàn hai lần vì lệnh thứ hai thiếu khoá chống trùng, sai thiết kế |
 
 Bộ nhãn người 2 theo loại: Do người dùng 1, 6, 9, 14 (4) · Hệ thống 2, 7, 8, 15, 20 (5) · Ngữ cảnh 3, 10, 16, 18 (4) · Giới hạn hệ thống 4, 11, 13, 19 (4) · Ngầm 5, 12, 17 (3).
 
-**Tỉ lệ đồng thuận:** ⟨số ca trùng⟩ / 20 = ⟨…⟩% (điền sau khi so; cần ≥ 16/20 = 80%)
+**Tỉ lệ đồng thuận:** 20 / 20 = 100% (đạt ngưỡng ≥ 16/20 = 80%; không cần viết lại định nghĩa)
 
 ## Quy tắc phân biệt cho các ca không trùng
 
-Mỗi ca không trùng một câu (điền sau khi so). Đồng thuận dưới 80% thì ghi định nghĩa đã viết lại.
+Mỗi ca không trùng một câu. Đồng thuận dưới 80% thì ghi định nghĩa đã viết lại.
 
-- ⟨điền sau khi so nhãn⟩
+- Không có ca không trùng: hai bộ nhãn trùng 20/20, nên không cần thống nhất lại ca nào.
 
 Quy tắc nhóm dùng cho các ca dễ lẫn (viết trước khi so, để thống nhất):
 

@@ -16,7 +16,7 @@ Toàn bộ năm nhiệm vụ A–E và duyệt chéo: viết và chạy `src/lab
 
 - **A · Chi phí:** ba hàm A1 (đạt 1,20 · 1,25 · 1,25); hàm `mo_hinh` tính tử số trên mọi 1.624 lần chạy, mẫu số chỉ 978 việc thành công → 4.472 đ/việc [simulated], gấp 16,3 lần hoá đơn; A3 theo loại, A4 cộng chi phí cố định cho phạm vi noi_dia + hang_nang (4.599 đ = 0,38× [simulated]).
 - **B · Độ nhạy:** 9 kịch bản + 1 cặp; xếp hạng làm lại (+51,8%) · xem lại (+40,7%) · lương (+23,1%) [simulated]; B3 giới hạn 2 lần rẻ nhất cho công ty; B4 xem lại 100% → 0,98× (1,03× với phút làm lại thật) [simulated].
-- **C · Lỗi:** bộ nhãn 1, so với bộ nhãn 2, bảng khắc phục 5 ca có event, ngưỡng, vai trò.
+- **C · Lỗi:** gắn bộ nhãn 1 cho 20 ca, so với bộ nhãn 2: đồng thuận 20/20 = 100%; bảng khắc phục 5 ca có event, ngưỡng, vai trò.
 - **D · Pilot:** năm câu D1, chọn chia theo nhân viên 20 + 20 với mde 6 điểm (power 0,64 nếu tác động thật 5 điểm), ngưỡng an toàn dựa trên tỉ lệ mở lại hiện tại 3,97% trong phạm vi, 4 luật dừng.
 - **E · Hồ sơ:** 5 chỉ số, 10 event có `trace_id`, 4 dòng rủi ro, hồ sơ 7 mục, đề xuất Go có điều kiện.
 

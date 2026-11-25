@@ -35,7 +35,7 @@ Dựng hồ sơ launch v0 cho trợ lý hoàn phí LogiX-VN để hội đồng 
 ## 5. Khó khăn và cách xử lý
 
 - **Nhóm chỉ có 1 thành viên** trong khi lab thiết kế cho 4 vai. Một người đảm nhận cả bốn vai; dùng Claude Code làm trợ lý viết code và kiểm số (ghi rõ trong báo cáo cá nhân).
-- **Nhiệm vụ C cần hai người gắn nhãn độc lập:** bộ nhãn 2 do Claude Code gắn theo định nghĩa PAIR, có lý do từng ca; bộ nhãn 1 do thành viên tự gắn mà không xem bộ nhãn 2, rồi mới so. Ghi rõ trong `bang_loi.md`.
+- **Nhiệm vụ C cần hai người gắn nhãn độc lập:** bộ nhãn 2 do Claude Code gắn theo định nghĩa PAIR, có lý do từng ca; bộ nhãn 1 do thành viên tự gắn, gửi theo từng đợt 5 ca và chỉ so sau khi đã chốt từng đợt. Kết quả đồng thuận 20/20 = 100%. Ghi rõ trong `bang_loi.md`.
 - **Duyệt chéo:** phiếu chấm điền tại buổi dựa trên hồ sơ nhóm khác; không điền trước.
 - **Môi trường Windows:** tạo venv bằng `python -m venv .venv` trong `src/`; thêm `sys.stdout.reconfigure(encoding='utf-8')` để in được tiếng Việt khi chuyển hướng output.
 
