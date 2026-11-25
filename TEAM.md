@@ -5,15 +5,15 @@
 - Tên nhóm: RICONs
 - Lớp: L3B
 - Repo nhóm: `K5-L3B-DAY13-RICONs-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt: https://github.com/theduythg/K5-L3B-DAY13-RICONs-LaunchEconomics · nhánh `theduythg/run` (merge vào `main` khi nộp) · commit bài làm `3015690` (commit cuối trên `main` trước deadline là bản chấm)
+- URL repo, nhánh nộp, commit chốt: https://github.com/theduythg/K5-L3B-DAY13-RICONs-LaunchEconomics · `main` · `b75d016` (đã kiểm tra là commit mới nhất trên `origin/main` và `origin/theduythg/run`)
 
 ## Thành viên
 
-Nhóm chỉ có **1 thành viên**, đảm nhận cả bốn vai.
+Nhóm chỉ có **1 thành viên**; thành viên đảm nhận các phần việc phù hợp, còn bộ nhãn tham khảo thứ hai do Claude Code tạo và không thay thế người gắn nhãn thứ hai.
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
-|   1 | Hoàng Thế Duyệt | 2A202603980 | ⟨Email⟩ | theduythg | Người viết code · Người kiểm số · Người gắn nhãn 1 · Người gắn nhãn 2 kiêm giữ hồ sơ |
+|   1 | Hoàng Thế Duyệt | 2A202603980 | Chưa cung cấp | theduythg | Người viết code · Người kiểm số · Người gắn nhãn 1 · Giữ hồ sơ |
 
 Bốn vai của lab:
 
@@ -22,7 +22,7 @@ Bốn vai của lab:
 - **Người gắn nhãn 1:** đọc đề, theo dõi điều kiện "Xong khi"; gắn nhãn 20 ca độc lập ở CP3.
 - **Người gắn nhãn 2, kiêm giữ hồ sơ:** điền `report/team/ho_so_launch_v0.md` từ đầu buổi; gắn nhãn 20 ca độc lập ở CP3.
 
-Vì nhóm có 1 người: bộ nhãn 2 của nhiệm vụ C do trợ lý AI Claude Code gắn (ghi rõ trong `report/team/bang_loi.md`), thành viên gắn bộ nhãn 1 độc lập rồi mới so.
+Vì nhóm có 1 người: Claude Code đã tạo bộ nhãn tham khảo thứ hai (ghi rõ trong `report/team/bang_loi.md`). Đây không phải người gắn nhãn thứ hai; tỉ lệ trùng 20/20 chỉ là so sánh với nhãn AI, không chứng minh đồng thuận giữa hai người.
 
 ## Cá nhân
 

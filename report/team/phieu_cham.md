@@ -4,23 +4,23 @@ Nhóm số n chấm nhóm số n + 1; nhóm cuối chấm nhóm 1. Chấm theo b
 
 > Phiếu này điền **tại buổi duyệt chéo**, dựa trên hồ sơ thật của nhóm được chấm. Không điền điểm khi chưa đọc hồ sơ của họ (`RULES.md`: không bịa kết quả duyệt chéo).
 
-- Nhóm chấm (hội đồng): RICONs (nhóm số ⟨n⟩, L3B)
-- Nhóm được chấm: ⟨tên nhóm n + 1⟩
+- Nhóm chấm (hội đồng): RICONs (L3B; số nhóm chưa được cung cấp)
+- Nhóm được chấm: Chưa được ghi nhận
 
 | Tiêu chí | 0 điểm | 5 điểm | 10 điểm | Điểm | Lý do (có số) |
 | --- | --- | --- | --- | ---: | --- |
-| Đề xuất khớp bằng chứng | Mâu thuẫn với số của chính nhóm | Khớp nhưng bỏ qua một con số bất lợi | Khớp, nêu cả con số bất lợi và cách xử lý | ⟨…⟩ | ⟨…⟩ |
-| Số giả lập và phạm vi | Không nhãn; phạm vi "mọi yêu cầu" | Có nhãn hoặc có thu hẹp phạm vi | Nhãn ở mọi số giả lập; phạm vi thu hẹp có lý do bằng số | ⟨…⟩ | ⟨…⟩ |
-| Pilot ra được quyết định | Không đối chứng hoặc thiếu cỡ mẫu | Đủ cỡ mẫu, luật dừng chung chung | Tách được tác động, đủ mẫu, luật dừng có ngưỡng, thời hạn, người có quyền dừng | ⟨…⟩ | ⟨…⟩ |
-| **Tổng** | | | | **⟨…⟩ / 30** | |
+| Đề xuất khớp bằng chứng | Mâu thuẫn với số của chính nhóm | Khớp nhưng bỏ qua một con số bất lợi | Khớp, nêu cả con số bất lợi và cách xử lý | Chưa chấm | Chưa có hồ sơ nhóm được chấm |
+| Số giả lập và phạm vi | Không nhãn; phạm vi "mọi yêu cầu" | Có nhãn hoặc có thu hẹp phạm vi | Nhãn ở mọi số giả lập; phạm vi thu hẹp có lý do bằng số | Chưa chấm | Chưa có hồ sơ nhóm được chấm |
+| Pilot ra được quyết định | Không đối chứng hoặc thiếu cỡ mẫu | Đủ cỡ mẫu, luật dừng chung chung | Tách được tác động, đủ mẫu, luật dừng có ngưỡng, thời hạn, người có quyền dừng | Chưa chấm | Chưa có hồ sơ nhóm được chấm |
+| **Tổng** | | | | **Chưa chấm / 30** | |
 
-**Quyết định của hội đồng:** ⟨Go · Go có điều kiện · No-go, giữ một⟩
+**Quyết định của hội đồng:** Chưa ghi nhận
 
-**Lý do:** ⟨…⟩
+**Lý do:** Chưa có thông tin về hồ sơ nhóm được chấm.
 
-**Một câu hỏi cho đội trình:** ⟨chọn một trong các câu chuẩn bị sẵn bên dưới, hoặc câu khác dựa trên hồ sơ của họ⟩
+**Một câu hỏi cho đội trình:** Chưa ghi nhận; cần chọn dựa trên hồ sơ nhóm được chấm.
 
-**Câu trả lời của đội trình (ghi lại tại buổi):** ⟨…⟩
+**Câu trả lời của đội trình (ghi lại tại buổi):** Chưa ghi nhận.
 
 ## Chuẩn bị trước của hội đồng RICONs
 

@@ -2,12 +2,12 @@
 
 20 ca lỗi nằm trong `docs/Ngay13_Lab13_De_bai_hoc_vien.docx`. Năm loại theo Google PAIR: **Do người dùng · Hệ thống · Ngữ cảnh · Giới hạn hệ thống · Ngầm**. Gắn nhãn theo nguyên nhân gốc, không theo chỗ cần sửa.
 
-## Hai bộ nhãn độc lập
+## Bộ nhãn của thành viên và bộ nhãn tham khảo do AI tạo
 
 Nhóm RICONs chỉ có 1 thành viên, nên hai bộ nhãn được làm như sau (ghi rõ để minh bạch theo `RULES.md`):
 
 - **Người gắn nhãn 1:** thành viên của nhóm, tự gắn cả 20 ca trong 8 phút, **không xem** cột người 2 và không xem nhãn tham khảo trong `docs/`.
-- **Người gắn nhãn 2:** Claude Code (trợ lý AI), gắn độc lập theo bảng định nghĩa PAIR của đề, có ghi lý do từng ca ở cột cuối.
+- **Bộ nhãn tham khảo 2:** Claude Code (trợ lý AI), tạo theo bảng định nghĩa PAIR của đề, có ghi lý do từng ca ở cột cuối. AI không phải người gắn nhãn thứ hai.
 
 Người 1 gửi nhãn theo từng đợt (ca 1–5, 6–10, 11–15, 16–20); mỗi đợt chỉ so sau khi người 1 đã chốt nhãn đợt đó. Sau khi so, không sửa hai cột nhãn độc lập.
 
@@ -36,7 +36,7 @@ Người 1 gửi nhãn theo từng đợt (ca 1–5, 6–10, 11–15, 16–20); 
 
 Bộ nhãn người 2 theo loại: Do người dùng 1, 6, 9, 14 (4) · Hệ thống 2, 7, 8, 15, 20 (5) · Ngữ cảnh 3, 10, 16, 18 (4) · Giới hạn hệ thống 4, 11, 13, 19 (4) · Ngầm 5, 12, 17 (3).
 
-**Tỉ lệ đồng thuận:** 20 / 20 = 100% (đạt ngưỡng ≥ 16/20 = 80%; không cần viết lại định nghĩa)
+**Kết quả so sánh:** 20 / 20 nhãn trùng với bộ nhãn do AI tạo. Đây không phải tỉ lệ đồng thuận giữa hai người và không thể dùng để khẳng định đã đạt ngưỡng rubric ≥ 16/20. Nhóm một thành viên cần hỏi giảng viên cách xử lý yêu cầu này.
 
 ## Quy tắc phân biệt cho các ca không trùng
 

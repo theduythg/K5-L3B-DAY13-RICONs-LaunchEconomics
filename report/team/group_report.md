@@ -6,7 +6,7 @@ Báo cáo ngắn, tối đa 2 trang. Số liệu chi tiết nằm trong các fil
 
 - Tên nhóm: RICONs
 - Lớp: L3B
-- Thành viên: xem `TEAM.md` (nhóm 1 thành viên, đảm nhận cả bốn vai)
+- Thành viên: xem `TEAM.md` (nhóm 1 thành viên; Claude Code tạo bộ nhãn tham khảo thứ hai nhưng không thay thế người gắn nhãn thứ hai)
 
 ## 2. Mục tiêu và cách tiếp cận
 
@@ -30,12 +30,12 @@ Dựng hồ sơ launch v0 cho trợ lý hoàn phí LogiX-VN để hội đồng 
 - D1: 1.251 · 3.103 (42 người/nhóm, không đủ) · tối đa 1.000 · tối đa 300 · m ≥ 299. Power 0,64 nếu tác động thật 5 điểm.
 - Chỉ số trong đợt chạy thử: chính 82,83%, bỏ qua gợi ý 27,12%, mở lại 4,25%.
 - **Đề xuất: Go có điều kiện** cho pilot noi_dia + hang_nang (điều kiện, người phụ trách, ngày kiểm tra trong `ho_so_launch_v0.md`).
-- Kết quả duyệt chéo nhóm nhận được: ⟨ghi sau buổi duyệt chéo⟩.
+- Kết quả duyệt chéo: chưa có thông tin nhóm được chấm và kết quả trong hồ sơ hiện tại; cần bổ sung theo phiếu chấm thực tế nếu buổi duyệt chéo đã diễn ra.
 
 ## 5. Khó khăn và cách xử lý
 
-- **Nhóm chỉ có 1 thành viên** trong khi lab thiết kế cho 4 vai. Một người đảm nhận cả bốn vai; dùng Claude Code làm trợ lý viết code và kiểm số (ghi rõ trong báo cáo cá nhân).
-- **Nhiệm vụ C cần hai người gắn nhãn độc lập:** bộ nhãn 2 do Claude Code gắn theo định nghĩa PAIR, có lý do từng ca; bộ nhãn 1 do thành viên tự gắn, gửi theo từng đợt 5 ca và chỉ so sau khi đã chốt từng đợt. Kết quả đồng thuận 20/20 = 100%. Ghi rõ trong `bang_loi.md`.
+- **Nhóm chỉ có 1 thành viên** trong khi lab thiết kế cho 4 vai. Thành viên viết code, kiểm số, gắn nhãn bộ 1 và giữ hồ sơ; Claude Code hỗ trợ code/kiểm số và tạo bộ nhãn tham khảo 2 (ghi rõ trong báo cáo cá nhân).
+- **Nhiệm vụ C chưa đáp ứng yêu cầu hai người gắn nhãn:** thành viên tự gắn bộ 1; Claude Code tạo bộ nhãn tham khảo 2. So sánh 20/20 là trùng với nhãn AI, không phải đồng thuận giữa hai người. Nhóm một thành viên cần xin hướng dẫn của giảng viên về cách xử lý.
 - **Duyệt chéo:** phiếu chấm điền tại buổi dựa trên hồ sơ nhóm khác; không điền trước.
 - **Môi trường Windows:** tạo venv bằng `python -m venv .venv` trong `src/`; thêm `sys.stdout.reconfigure(encoding='utf-8')` để in được tiếng Việt khi chuyển hướng output.
 
